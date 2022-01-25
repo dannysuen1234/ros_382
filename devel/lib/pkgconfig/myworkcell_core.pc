@@ -1,0 +1,8 @@
+prefix=/home/vtl/industrial_ws/devel
+
+Name: myworkcell_core
+Description: Description of myworkcell_core
+Version: 0.0.0
+Cflags: -I/home/vtl/industrial_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy fake_ar_publisher message_runtime geometry_msgs tf2_ros tf2_geometry_msgs

@@ -1,0 +1,8 @@
+prefix=/home/vtl/industrial_ws/devel
+
+Name: fake_ar_publisher
+Description: Description of fake_ar_publisher
+Version: 0.0.0
+Cflags: -I/home/vtl/industrial_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs visualization_msgs
